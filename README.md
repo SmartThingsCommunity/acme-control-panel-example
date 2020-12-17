@@ -1,12 +1,15 @@
 # Acme Control Panel Example
 
-This SmartApp hosts a web page that allows the control of scenes, locks, and switches. 
-It's an example of how to:
+This SmartApp hosts a web page dashboard that allows the control of scenes, locks, and switches. 
+It also creates two devices in the SmartThings location, which are also reflected on
+the dashboard. It's an example of how to:
 * Execute scenes
 * Execute device commands
 * Subscribe to device state change events by capability
 * Store the auth tokens and settings of installed app instances and use them when making 
   calls to the SmartThings API that are not in response to SmartApp lifecycle events.
+* Create devices
+* Respond to device commands
 
 ## File Structure
 
@@ -21,15 +24,13 @@ It's an example of how to:
   * javascript &mdash; web page JavaScript files
   * stylesheets &mdash; web page css files
 * routes
-  * index.js
-  * oauth.js
-  * smartapp.js  
+  * index.js -- defines routes for the dashboard and SmartApp endpoint
+  * oauth.js - defines routes for the OAuth server (not normally part of a SmartApp)
 * server.js &mdash; the Express server that hosts the SmartApp as a web-hook
 * views
   * index.ejs &mdash; the home page
-  * isa.ejs &mdash; the installed app instance control page
-  * oauth
-    * login.js
+  * dashboard.ejs &mdash; the installed app instance control page
+  * login.js &mdash the OAuth login page
 
 ## Prerequisites
 - A [Samsung Developer Workspace account](https://smartthings.developer.samsung.com/workspace/)
@@ -66,6 +67,7 @@ r:devices:*
 x:devices:*
 r:scenes:*
 x:scenes:*
+i:deviceprofiles:*
 ```
 Choose the web-hook option when creating the app. The _targetURI_ should be set to the ngrok forwarding
 URL, for example `https://c79461932dfc.ngrok.io`

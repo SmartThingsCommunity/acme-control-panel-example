@@ -36,7 +36,7 @@ router.get('/dashboard/:id', async (req, res) => {
 	if (context.configBooleanValue('switches')) {
 
 		// Query SmartThings for all switches in the location
-		const switches = await context.api.devices.list({capability: 'switch'})
+		const switches = (await context.api.devices.list({capability: 'switch'}))
 
 			// Filter out the Acme switches based in the external ID, which was assigned when
 			// we created the switches
