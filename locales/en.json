@@ -1,0 +1,23 @@
+{
+	"pages.mainPage.name": "Acme Control Panel",
+	"pages.mainPage.sections.heading.name": "",
+	"pages.mainPage.sections.text.name": "",
+	"pages.mainPage.settings.intro.name": "",
+	"pages.mainPage.settings.intro.description": "The content of this page is defined in the SmartApp. You can include text and graphics but the styling is controlled by SmartThings. You can include explanation here about what the user is about to do.",
+	"pages.mainPage.sections.oauth.name": "",
+	"pages.mainPage.settings.link.name": "Connect to Acme",
+	"pages.mainPage.settings.link.description": "",
+	"pages.mainPage.sections.types.name": "SmartThings Integration Options",
+	"pages.mainPage.settings.scenes.name": "Control Scenes",
+	"pages.mainPage.settings.scenes.description": "",
+	"pages.mainPage.settings.switches.name": "Control Switches",
+	"pages.mainPage.settings.switches.description": "",
+	"pages.mainPage.settings.locks.name": "Control Locks",
+	"pages.mainPage.settings.locks.description": "",
+	"pages.mainPage.settings.acme.name": "",
+	"pages.mainPage.settings.acme.description": "",
+	"Tap to set": "Tap to set",
+	"pages.mainPage.sections.acme.name": "Acme Device Options",
+	"pages.mainPage.settings.devices.name": "Import Acme Switches",
+	"pages.mainPage.settings.devices.description": ""
+}

@@ -1,0 +1,42 @@
+{
+  "name": "express-open-close-lighting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SmartThingsCommunity/app-examples.git"
+  },
+  "keywords": [
+    "SmartThings",
+    "SmartApp",
+    "NodeJS",
+    "Open/Close",
+    "Lighting"
+  ],
+  "author": "SmartThings",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/SmartThingsCommunity/app-examples/issues"
+  },
+  "homepage": "https://github.com/SmartThingsCommunity/app-examples#readme",
+  "dependencies": {
+    "@smartthings/file-context-store": "0.0.1",
+    "@smartthings/smartapp": "^2.4.3",
+    "axios": "^0.21.0",
+    "cookie-session": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-sse": "^0.5.3",
+    "morgan": "^1.10.0",
+    "querystring": "^0.2.0",
+    "rand-token": "^1.0.1"
+  },
+  "engines": {
+    "node": "^12"
+  }
+}

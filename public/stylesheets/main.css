@@ -1,0 +1,57 @@
+h1, h2 {
+    margin-top: 15px;
+}
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 24px;
+}
+.scene {
+    width: 140px;
+    margin: 5px;
+    height: 64px;
+}
+.device {
+    width: 280px;
+    margin: 5px;
+    height: 64px;
+}
+.panel {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.name {
+    text-align: center;
+    width: 100%;
+}
+.label {
+    width: 70%;
+    white-space: normal;
+    text-align: left;
+}
+.value {
+    width: 30%;
+    white-space: normal;
+    padding: 10px 2px 10px 2px;
+    background-color: #4c555d;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 3px;
+    text-align: center;
+
+}
+.value.active {
+    background-color: #1c252d;
+}
+.btn-secondary {
+    /*background-color: beige;*/
+    /*color: saddlebrown;*/
+}
+.processing {
+    background-image: url("/images/spinner.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
