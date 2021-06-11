@@ -46,6 +46,12 @@ the dashboard. It's an example of how to:
 git clone https://github.com/SmartThingsCommunity/device-scene-example-nodejs.git
 ```
 
+### Create the local data directory
+```bash
+mkdir data
+mkdir data/smartthings
+```
+
 ### Start the server
 ```bash
 cd device-scene-example-nodejs
@@ -61,7 +67,8 @@ Make note of the HTTPS forwarding URL, for example `https://c79461932dfc.ngrok.i
 
 ### Create an automation in the developer workspace
 
-Go to the SmartThings developer workspace and create an Automation SmartApp. This app should have the scopes:
+Go to the SmartThings developer workspace and create an Automation SmartApp. 
+This app should have the scopes:
 ```
 r:devices:*
 x:devices:*
@@ -69,8 +76,8 @@ r:scenes:*
 x:scenes:*
 i:deviceprofiles:*
 ```
-Choose the web-hook option when creating the app. The _targetURI_ should be set to the ngrok forwarding
-URL, for example `https://c79461932dfc.ngrok.io`
+Choose the web-hook option when creating the app. The _targetURL_ should be set to the ngrok forwarding
+URL with the path `/smartapp`, for example `https://c79461932dfc.ngrok.io/smartapp`
 
 Take note of the `appId`, `clientId`, and `clientSecret` displayed after creating your app.
 
