@@ -48,13 +48,13 @@ git clone https://github.com/SmartThingsCommunity/device-scene-example-nodejs.gi
 
 ### Create the local data directory
 ```bash
+cd device-scene-example-nodejs
 mkdir data
 mkdir data/smartthings
 ```
 
 ### Start the server
 ```bash
-cd device-scene-example-nodejs
 npm install
 node server.js
 ```
