@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test-coverage": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -25,7 +26,7 @@
   "homepage": "https://github.com/SmartThingsCommunity/app-examples#readme",
   "dependencies": {
     "@smartthings/file-context-store": "0.0.1",
-    "@smartthings/smartapp": "^2.4.4",
+    "@smartthings/smartapp": "^2.6.0",
     "axios": "^0.21.1",
     "cookie-session": "^1.4.0",
     "dotenv": "^8.2.0",
@@ -35,6 +36,9 @@
     "morgan": "^1.10.0",
     "querystring": "^0.2.0",
     "rand-token": "^1.0.1"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2"
   },
   "engines": {
     "node": "^12"
