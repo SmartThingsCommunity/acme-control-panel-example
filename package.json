@@ -27,7 +27,7 @@
   "dependencies": {
     "@smartthings/file-context-store": "0.0.1",
     "@smartthings/smartapp": "^2.6.0",
-    "axios": "^0.21.1",
+    "axios": "^0.21.4",
     "cookie-session": "^1.4.0",
     "dotenv": "^8.2.0",
     "ejs": "^3.1.5",
@@ -41,6 +41,6 @@
     "jest": "^26.4.2"
   },
   "engines": {
-    "node": "^12"
+    "node": "^14"
   }
 }
