@@ -1,5 +1,5 @@
 {
-  "name": "express-open-close-lighting",
+  "name": "acme-control-panel-example",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SmartThingsCommunity/app-examples.git"
+    "url": "git+https://github.com/SmartThingsCommunity/acme-control-panel-example.git"
   },
   "keywords": [
     "SmartThings",
@@ -21,9 +21,9 @@
   "author": "SmartThings",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/SmartThingsCommunity/app-examples/issues"
+    "url": "https://github.com/SmartThingsCommunity/acme-control-panel-example/issues"
   },
-  "homepage": "https://github.com/SmartThingsCommunity/app-examples#readme",
+  "homepage": "https://github.com/SmartThingsCommunity/acme-control-panel-example#readme",
   "dependencies": {
     "@smartthings/file-context-store": "0.0.1",
     "@smartthings/smartapp": "^2.6.0",
