@@ -25,8 +25,8 @@
   },
   "homepage": "https://github.com/SmartThingsCommunity/acme-control-panel-example#readme",
   "dependencies": {
-    "@smartthings/file-context-store": "0.0.1",
-    "@smartthings/smartapp": "^2.6.0",
+    "@smartthings/file-context-store": "1.1.1",
+    "@smartthings/smartapp": "^4.3.4",
     "axios": "^0.28.0",
     "cookie-session": "^1.4.0",
     "dotenv": "^8.2.0",
