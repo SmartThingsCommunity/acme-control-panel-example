@@ -27,11 +27,11 @@
   "dependencies": {
     "@smartthings/file-context-store": "0.0.1",
     "@smartthings/smartapp": "^2.6.0",
-    "axios": "^0.21.4",
+    "axios": "^0.28.0",
     "cookie-session": "^1.4.0",
     "dotenv": "^8.2.0",
-    "ejs": "^3.1.5",
-    "express": "^4.17.1",
+    "ejs": "~3.1.8",
+    "express": "~4.21.0",
     "express-sse": "^0.5.3",
     "morgan": "^1.10.0",
     "querystring": "^0.2.0",
@@ -41,6 +41,6 @@
     "jest": "^27.2.0"
   },
   "engines": {
-    "node": "^14"
+    "node": "^16"
   }
 }

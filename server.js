@@ -64,7 +64,11 @@ server.post('/smartapp', (req, res, next) => {
 
 // The route that handles Server-Sent Events to update the dashboard web page. This would not normally be part
 // of a SmartApp
-server.get('/events', sse.init)
+server.get('/events', (req, res, next) => {
+        res.flush = () => {};
+        next();
+    }, sse.init
+);
 
 // Start listening on the designated port
 server.listen(PORT, () => {
